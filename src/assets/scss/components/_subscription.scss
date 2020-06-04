@@ -1,0 +1,17 @@
+.subscription {
+    background-color: rgba($black, 0.03);
+    padding-top: 4em;
+    padding-bottom: 5em;
+    .section-title {
+        margin-bottom: 32px;
+    }
+    .section-description {
+        font-size: 1.5rem;
+        line-height: 1.5;
+        color: $color-dark;
+        margin-bottom: 48px;
+    }
+    .subscription-form {
+        max-width: 560px;
+    }
+}

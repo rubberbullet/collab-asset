@@ -1,0 +1,18 @@
+#back-to-top {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    background-color: $color-dark;
+    color: $white;
+    cursor: pointer;
+    line-height: 0px;
+    transition: all 0.25s;
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+    &:hover {
+        background-color: lighten($color-dark, 20%);
+    }
+}

@@ -1,0 +1,120 @@
+/* ===============================================
+navigation bar
+=============================================== */
+.site-header {
+    .header-wrapper {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .text-logo {
+        font-family: $serif;
+        font-size: 3rem;
+        line-height: 1.2;
+        font-weight: 700;
+        color: $color-dark;
+        text-transform: uppercase;
+        &:hover {
+            color: $color-dark;
+        }
+    }
+    .site-description {
+        font-size: 1.125rem;
+    }
+    .site-navbar {
+        border-top: 4px solid $color-dark;
+    }
+    .navbar-inner {
+        flex: 0 0 100%;
+        border-top: 4px solid $color-dark;
+        border-bottom: 4px solid $color-dark;
+        height: 56px;
+        .menu-button, .search-button {
+            width: 20px;
+            height: 20px;
+            margin-top: 12px;
+            svg {
+                color: $color-dark;
+                cursor: pointer;
+                transition: (all 0.25s);
+                &:hover {
+                    color: $color-normal;
+                }
+            }
+        }
+        .menu-button {
+            margin-left: 8px;
+        }
+        .search-button {
+            margin-right: 8px;
+        }
+        .main-menu {
+            font-weight: 700;
+            flex-direction: row;
+            li {
+                margin: 0px 10px;
+                a {
+                    color: $color-dark;
+                    &:hover {
+                        color: $color-normal;
+                    }
+                }
+                &.current-menu-item {
+                    a {
+                        color: $color-normal;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// .site-navbar {
+// height: 120px;
+// }
+// .text-logo {
+//     font-size: 2rem;
+//     font-weight: 600;
+//     color: $color-dark;
+//     &:hover {
+//         color: $color-dark;
+//     }
+// }
+// .main-menu {
+//     font-weight: 600;
+//     li  {
+//         margin-right: 28px;
+//         position: relative;
+//         line-height: 2.5rem;
+//         a {
+//             color: $color-dark;
+//             display: inline-flex;
+//             &:hover {
+//                 color: $primary-color;
+//                 &:before {
+//                     left: 0;
+//                     width: 100%;
+//                 }
+//             }
+//         }
+//         &.current-menu-item {
+//             a {
+//                 color: $primary-color;
+//             }
+//         }
+//     }
+// }
+// .search-button {
+//     display: inline-flex;
+//     cursor: pointer;
+//     margin-left: 16px;
+//     color: $color-dark;
+//     transition: all 0.25s;
+//     svg {
+//         height: 20px;
+//         width: 20px;
+        
+//     }
+//     &:hover {
+//         color: $primary-color;
+//     }
+// }

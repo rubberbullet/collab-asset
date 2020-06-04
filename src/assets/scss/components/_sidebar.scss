@@ -1,0 +1,120 @@
+.widget {
+    .widget-title {
+        color: $white;
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        text-transform: uppercase;
+        line-height: 2;
+        margin-bottom: 0;
+    }
+    .content {
+        padding-top: 32px;
+        margin-bottom: 32px;
+    }
+    .subscribe-widget {
+        input[type='email'] {
+            border: none;
+        }
+    }
+    .tagcloud {
+        a {
+            background-color: $color-dark;
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.875rem;
+            font-weight: 600;
+            line-height: 2;
+            padding: 0px 10px;
+            letter-spacing: 1px;
+            margin-right: 4px;
+            margin-bottom: 8px;
+            display: inline-flex;
+            &:hover {
+                color: $color-light;
+            }
+        }
+    }
+    .recent-post {
+        .recent-single-post {
+            margin-bottom: 28px;
+            a {
+                .post-thumb {
+                    width: 90px;
+                    height: 65px;
+                    background-size: cover;
+                    background-position: center center;
+                    margin-top: 4px;
+                    &.no-image {
+                        background-color: rgba($color-light, 0.5);
+                        text-align: center;
+                        svg {
+                            color: $white;
+                            height: 100%;
+                        }
+                    }
+                }
+                .post-info {
+                    margin-left: 100px;
+                    .post-title {
+                        font-size: 0.875rem;
+                    }
+                    .date {
+                        font-size: 0.75rem;
+                        letter-spacing: 0.5px;
+                    }
+                }
+                &:hover {
+                    .post-thumb {
+                        opacity: 0.9;
+                    }
+                }
+            }
+            
+        }
+    }
+    .social-links {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        li {
+            display: inline-flex;
+            margin-right: 4px;
+            margin-bottom: 16px;
+            a {
+                
+                line-height: 0;
+                height: 40px;
+                width: 40px;
+                border: 1px solid $color-dark;
+                display: block;
+                text-align: center;
+                border-radius: 4px;
+                color: $color-dark;
+                svg {
+                    width: 24px;
+                    height: 100%;
+                }
+                &:hover {
+                    background-color: $color-dark;
+                    color: $white;
+                }
+            }
+        }
+    }
+}
+.sidebar {
+    .widget {
+        .widget-title {
+            background: $color-dark;
+            padding: 10px;
+            text-align: center;
+        }
+        .subscribe-widget {
+            background-color: $widget-bg;
+            padding-bottom: 32px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    }
+}

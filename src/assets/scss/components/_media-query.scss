@@ -1,0 +1,82 @@
+
+// @media (max-width: 991px) {
+//     // .site-navbar {
+//     //     display: none;
+//     // }
+//     // .hero-area {
+//     //     .site-description {
+//     //         font-size: 3.5rem;
+//     //         line-height: 1.5;
+//     //     }
+//     // }
+//     .slider-item {
+//         .post-image {
+//             .post-content {
+//                 .title {
+//                     font-size: 2rem;
+//                 }
+//             }
+//         }
+//     }
+// }
+// @media screen and (max-width: 767px) {
+//     // .pagination-wrap {
+//     //     .page-number {
+//     //         display: block;
+//     //     }
+//     // }
+//     // .hero-area {
+//     //     height: 100%;
+//     // }
+//     .slider-item {
+//         .post-image {
+//             .post-content {
+//                 .title {
+//                     font-size: 1.5rem;
+//                 }
+//             }
+//         }
+//     }
+//     .post-item-wrap {
+//         .post-item {
+//             flex: 1 0 300px;
+//             .post-content {
+//                 .title {
+//                     font-size: 1.5rem;
+//                 }
+//             }
+//         }
+//     }
+//     .pagination-wrap {
+//         .page-number {
+//             display: block;
+//         }
+//     }
+// }
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) { 
+    
+//  }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) { 
+    
+//  }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) { 
+//     .content-area-wrap {
+//         padding-right: 45px;
+//     }
+//     .sidebar-wrap {
+//         padding-left: 0px;
+//     }
+//  }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1260px) {
+.container {
+    max-width: 1230px;
+}
+}

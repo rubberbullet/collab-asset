@@ -1,0 +1,29 @@
+.pagination-wrap {
+    margin-top: 18px;
+    a {
+        color: $text-dark;
+        font-weight: 600;
+        svg {
+            height: 12px;
+            width: 12px;
+            vertical-align: middle;
+            margin-top: -2px;
+        }
+        &.newer-posts {
+            svg {
+                margin-right: 4px;
+            }
+        }
+        &.older-posts {
+            svg {
+                margin-left: 4px;
+            }
+        }
+        &:hover {
+            color: $primary-color;
+        }
+    }
+    .page-number {
+        margin: 14px 16px;
+    }
+}
